@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Sign Up</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="#">
+  <meta name="keywords" content="Admin , Responsive, Landing, Bootstrap, App, Template, Mobile, iOS, Android, apple, creative app">
+  <meta name="author" content="#">
+  <!-- Favicon icon -->
+
+  <link rel="icon" href="assets\images\favicon.ico" type="image/x-icon">
+  <!-- Google font-->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800" rel="stylesheet">
+  <!-- Required Fremwork -->
+  <link rel="stylesheet" type="text/css" href="bower_components\bootstrap\css\bootstrap.min.css">
+  <!-- themify-icons line icon -->
+  <link rel="stylesheet" type="text/css" href="assets\icon\themify-icons\themify-icons.css">
+  <!-- ico font -->
+  <link rel="stylesheet" type="text/css" href="assets\icon\icofont\css\icofont.css">
+  <!-- Style.css -->
+  <link rel="stylesheet" type="text/css" href="assets\css\style.css">
+
+  <link rel="stylesheet" href="assets\css\sign-up.css">
+
+</head>
+
+<body class="fix-menu">
+  <!-- Pre-loader start -->
+  <div class="theme-loader">
+    <div class="ball-scale">
+      <div class='contain'>
+        <div class="ring">
+          <div class="frame"></div>
+        </div>
+        <div class="ring">
+          <div class="frame"></div>
+        </div>
+        <div class="ring">
+          <div class="frame"></div>
+        </div>
+        <div class="ring">
+          <div class="frame"></div>
+        </div>
+        <div class="ring">
+          <div class="frame"></div>
+        </div>
+        <div class="ring">
+          <div class="frame"></div>
+        </div>
+        <div class="ring">
+          <div class="frame"></div>
+        </div>
+        <div class="ring">
+          <div class="frame"></div>
+        </div>
+        <div class="ring">
+          <div class="frame"></div>
+        </div>
+        <div class="ring">
+          <div class="frame"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Pre-loader end -->
+  <section class="login-block">
+    <!-- Container-fluid starts -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12">
+          <!-- Authentication card start -->
+          <form class="md-float-material form-material">
+            <div class="text-center">
+              <img src="assets\images\logo.webp" width="150px" alt="logo.webp">
+            </div>
+            <div class="auth-box card">
+
+              <div class="card-block sign3">
+                <p class="sign-info">Please enter your otp</p>
+                <div class="form-group d-flex justify-content-center main-box">
+                  <form>
+                    <input id="codeBox1" class="otp" type="number" maxlength="1" onkeyup="onKeyUpEvent(1, event)" onfocus="onFocusEvent(1)">
+                    <input id="codeBox2" class="otp" type="number" maxlength="1" onkeyup="onKeyUpEvent(2, event)" onfocus="onFocusEvent(2)">
+                    <input id="codeBox3" class="otp" type="number" maxlength="1" onkeyup="onKeyUpEvent(3, event)" onfocus="onFocusEvent(3)">
+                    <input id="codeBox4" class="otp" type="number" maxlength="1" onkeyup="onKeyUpEvent(4, event)" onfocus="onFocusEvent(4)">
+                  </form>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <button type="button" class="btn btn-primary btn-md btn-block waves-effect text-center m-b-20"><a href="login.html">Submit</a></button>
+                  </div>
+                  <div class="col-md-6">
+                    <button type="button" class="btn btn-primary btn-md btn-block waves-effect text-center m-b-20" onclick="window.location.href='login.html'">Resend</button>
+                  </div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                  <div class="col-md-6 ">
+                    <button type="button" class="btn btn-primary btn-md btn-block waves-effect text-center m-b-20">Change Number</button>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </form>
+          <!-- end of form -->
+        </div>
+        <!-- Authentication card end -->
+      </div>
+      <!-- end of col-sm-12 -->
+    </div>
+    <!-- end of row -->
+
+    <!-- end of container-fluid -->
+  </section>
+
+
+  <!-- Required Jquery -->
+  <script type="text/javascript" src="bower_components\jquery\js\jquery.min.js"></script>
+  <script type="text/javascript" src="bower_components\jquery-ui\js\jquery-ui.min.js"></script>
+  <script type="text/javascript" src="bower_components\popper.js\js\popper.min.js"></script>
+  <script type="text/javascript" src="bower_components\bootstrap\js\bootstrap.min.js"></script>
+  <!-- jquery slimscroll js -->
+  <script type="text/javascript" src="bower_components\jquery-slimscroll\js\jquery.slimscroll.js"></script>
+  <!-- modernizr js -->
+  <script type="text/javascript" src="bower_components\modernizr\js\modernizr.js"></script>
+  <script type="text/javascript" src="bower_components\modernizr\js\css-scrollbars.js"></script>
+  <!-- i18next.min.js -->
+  <script type="text/javascript" src="bower_components\i18next\js\i18next.min.js"></script>
+  <script type="text/javascript" src="bower_components\i18next-xhr-backend\js\i18nextXHRBackend.min.js"></script>
+  <script type="text/javascript" src="bower_components\i18next-browser-languagedetector\js\i18nextBrowserLanguageDetector.min.js"></script>
+  <script type="text/javascript" src="bower_components\jquery-i18next\js\jquery-i18next.min.js"></script>
+  <script type="text/javascript" src="assets\js\common-pages.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+
+  <script src="assets/js/sign-up.js" charset="utf-8"></script>
+  <script src="assets/js/sign-up1.js" charset="utf-8"></script>
+</body>
+
+</html>
